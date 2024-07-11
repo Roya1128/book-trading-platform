@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="./login.js"></script>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+<div>
+   <div style="margin-top:200px">
+    <!-- LOGN IN FORM by Omar Dsoky -->
+    <form href="signup.html">
+       <!--   con = Container  for items in the form-->
+       <div class="con">
+       <!--     Start  header Content  -->
+       <header class="head-form">
+          <h2>Log In</h2>
+          <!--     A welcome message or an explanation of the login form -->
+          <p>login here using your username and password</p>
+       </header>
+       <!--     End  header Content  -->
+       <br>
+       <div class="field-set">
+         
+          <!--   user name -->
+             <span class="input-item">
+               <i class="fa fa-user-circle"style='font-size:24px'></i>
+             </span>
+            <!--   user name Input-->
+             <input class="form-input"style="width:240px" id="txt-input" type="text" placeholder="@UserName" required>
+         
+          <br>
+         
+               <!--   Password -->
+         
+          <span class="input-item">
+            <i class="fa fa-key"></i>
+           </span>
+          <!--   Password Input-->
+          <input class="form-input" style="width:240px" type="password" placeholder="Password" id="pwd"  name="password" required>
+         
+    <!--      Show/hide password  -->
+         <span>
+            <i  aria-hidden="true" type="button" id="eye"> <img src="https://cdn0.iconfinder.com/data/icons/feather/96/eye-16.png" alt="eye"></img></i>
+            
+         </span>
+         
+         
+          <br>
+    <!--        buttons -->
+    <!--      button LogIn -->
+          <button class="log-in"> Log In </button>
+        </form>   
+       </div>
+     
+    <!--   other buttons -->
+       <div class="other">
+    <!--      Forgot Password button-->
+          <button class="btn submits frgt-pass">Forgot Password</button>
+    <!--     Sign Up button -->
+          <button class="btn submits sign-up"><a href="./signup.html" style="text-decoration:none; color:black;">Sign Up</a>
+    <!--         Sign Up font icon -->
+          <i class="fa fa-user-plus" aria-hidden="true"></i>
+          </button>
+    <!--      End Other the Division -->
+       </div>
+         
+    <!--   End Conrainer  -->
+      </div>
+      
+      <!-- End Form -->
+    
+
+   </div>
+</div>
+</body>
+
+</html>

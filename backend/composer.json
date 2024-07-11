@@ -1,0 +1,14 @@
+{
+    "autoload": {
+    	"psr-4": {
+    	   "Controllers\\": "app/Controllers/",
+            "Models\\": "app/Models/",
+            "Vendor\\": "vendor/",
+            "Firebase\\JWT\\": "vendor/firebase/php-jwt/src/",
+            "Middlewares\\": "app/Middlewares/"
+    	}
+    },
+    "require": {
+        "firebase/php-jwt": "^6.3"
+    }
+}
